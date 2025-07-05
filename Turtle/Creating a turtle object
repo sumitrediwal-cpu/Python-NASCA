@@ -1,0 +1,4 @@
+import turtle
+t = turtle.Turtle()
+# Changing the shape of the turtle object
+t.shape("turtle")
