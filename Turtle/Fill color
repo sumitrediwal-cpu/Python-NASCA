@@ -1,0 +1,9 @@
+import turtle
+t = turtle.Turtle()
+t.shape("turtle") # Changing the shape of the turtle object
+
+t.color("red")
+t.circle(100)
+t.begin_fill()
+t.circle(50)
+t.end_fill()
