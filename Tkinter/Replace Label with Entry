@@ -1,0 +1,10 @@
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Calculator — Session 3")
+root.geometry("320x360")
+
+entry = tk.Entry(root, font=("Arial", 22), justify="right", bd=4, relief="sunken")
+entry.grid(row=0, column=0, columnspan=4, padx=10, pady=15, ipady=8)
+
+root.mainloop()
