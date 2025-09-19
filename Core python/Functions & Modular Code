@@ -1,0 +1,15 @@
+# Session 7: Functions
+
+def greet(name):
+    """Return a greeting for the given name."""
+    return f"Hello, {name}!"
+
+def add(a, b):
+    """Return sum of two numbers (as integers)."""
+    return int(a) + int(b)
+
+# Use them
+print(greet("Aisha"))
+x = input("Enter number 1: ")
+y = input("Enter number 2: ")
+print("Sum is:", add(x, y))
