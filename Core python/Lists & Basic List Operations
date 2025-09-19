@@ -1,0 +1,24 @@
+# Session 6: Lists example
+
+# 1. Create and access
+fruits = ["apple", "banana", "mango"]
+print(fruits[0])           # apple
+print(fruits[-1])          # mango
+
+# 2. Add and remove
+fruits.append("orange")
+fruits.insert(1, "grapes")
+print(fruits)
+fruits.remove("banana")    # remove by value
+print(fruits)
+last = fruits.pop()        # pop last
+print("Removed:", last)
+
+# 3. Sorting
+numbers = [5, 2, 9, 1]
+numbers.sort()
+print(numbers)
+
+# 4. Loop through list
+for i, f in enumerate(fruits, start=1):
+    print(i, f)
