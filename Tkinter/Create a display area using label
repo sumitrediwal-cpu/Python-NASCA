@@ -1,0 +1,10 @@
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Calculator — Session 2")
+root.geometry("320x280")
+
+display_label = tk.Label(root, text="", font=("Arial", 22), bg="white", anchor="e", width=14, relief="sunken")
+display_label.grid(row=0, column=0, columnspan=4, padx=10, pady=15, ipady=10)
+
+root.mainloop()
