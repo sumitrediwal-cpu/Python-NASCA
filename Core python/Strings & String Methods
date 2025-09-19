@@ -1,0 +1,25 @@
+# Session 5: Strings examples
+
+# 1. Creating strings
+name = "Aisha"
+welcome = " Hello, " + name + "!"
+print(welcome)                # concatenation
+
+# 2. Indexing and slicing
+word = "Python"
+print(word[0])                # 'P' (first character)
+print(word[-1])               # 'n' (last character)
+print(word[1:4])              # 'yth' (slice from index 1 to 3)
+
+# 3. Useful methods
+msg = "  hello world  "
+print(len(msg))               # length including spaces
+print(msg.strip())            # removes leading/trailing spaces
+print(msg.upper())            # uppercase
+print(msg.replace("hello", "hi"))
+
+# 4. Split into words and join back
+sentence = "This is fun"
+words = sentence.split()      # ['This','is','fun']
+print(words)
+print("-".join(words))        # join with hyphens
