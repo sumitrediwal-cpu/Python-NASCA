@@ -1,0 +1,25 @@
+# Session 8: Dictionaries & Tuples
+
+# Tuple example
+point = (3, 5)        # x, y coordinates
+x, y = point          # unpacking
+print("x:", x, "y:", y)
+
+# Dictionary example - phonebook
+phonebook = {
+    "Riya": "9876543210",
+    "Aman": "9123456780"
+}
+# Access
+print(phonebook["Riya"])
+# Safe access
+print(phonebook.get("Vikram", "Not found"))
+
+# Add / update / delete
+phonebook["Vikram"] = "9000001111"
+phonebook["Aman"] = "9999999999"
+del phonebook["Riya"]
+
+# Iterate
+for name, number in phonebook.items():
+    print(name, "->", number)
