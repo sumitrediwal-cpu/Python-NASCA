@@ -1,0 +1,21 @@
+# add_two_numbers.py
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+sum_result = num1 + num2
+print("Sum:", sum_result)
+
+
+# area_rectangle.py
+length = float(input("Enter length (cm): "))
+breadth = float(input("Enter breadth (cm): "))
+area = length * breadth
+print("Area of rectangle:", area, "square cm")
+
+
+# simple_interest.py
+principal = float(input("Enter principal amount (P): "))
+rate = float(input("Enter annual rate (R %) : "))
+time = float(input("Enter time in years (T): "))
+
+simple_interest = (principal * rate * time) / 100
+print("Simple Interest:", simple_interest)
