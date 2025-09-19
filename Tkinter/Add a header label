@@ -1,0 +1,10 @@
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Calculator — Session 1")
+root.geometry("320x200")
+
+header = tk.Label(root, text="Calculator (Session 1)", font=("Arial", 18))
+header.pack(pady=20)
+
+root.mainloop()
