@@ -1,0 +1,23 @@
+# print_1_to_10.py
+for i in range(1, 11):
+    print(i)
+
+
+# multiplication_table.py
+n = int(input("Enter a number to print its table: "))
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
+
+
+# sum_first_n.py
+n = int(input("Enter N: "))
+total = 0
+for i in range(1, n + 1):
+    total += i
+print("Sum of first", n, "natural numbers is:", total)
+
+
+# star_pattern.py
+n = int(input("Enter number of rows: "))
+for i in range(1, n + 1):
+    print('*' * i)
