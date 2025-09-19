@@ -1,0 +1,23 @@
+# hello_world.py
+print("Hello, World!")
+
+
+# student_info.py
+name = "Asha"
+age = 14
+fav_subject = "Science"
+
+print("Name:", name)
+print("Age:", age)
+print("Favorite subject:", fav_subject)
+
+
+# swap_tuple.py
+a = 5
+b = 10
+print("Before swap: a =", a, "b =", b)
+
+a, b = b, a  # swap using tuple unpacking
+print("After swap: a =", a, "b =", b)
+
+
